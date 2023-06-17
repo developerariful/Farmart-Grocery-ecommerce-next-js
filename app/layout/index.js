@@ -3,11 +3,11 @@ import Footer from './Footer'
 import Header from './Header'
 
 
-function Layout({Children}) {
+function Layout({children}) {
   return (
     <>
         <Header/>
-        {Children}
+        {children}
         <Footer/>
     </>
   )
