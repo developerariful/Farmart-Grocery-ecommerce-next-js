@@ -36,3 +36,13 @@ p {
     @apply !bg-white text-title font-bold px-7 py-3 block w-fit rounded  hover:shadow-md transition duration-300 ease-in-out;
   }
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
